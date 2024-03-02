@@ -39,8 +39,12 @@ namespace CircleObjects
             return radius * radius * Math.PI;
         }
 
+        public double Grow(double input)
+        {
+            return input * 2;
+        }
 
-  
+
     }
 
 }
